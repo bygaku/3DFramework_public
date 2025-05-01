@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Directory">
+      <UniqueIdentifier>{8ccfdaf2-83bc-45cc-8189-c9cf87884f75}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Directory\Core\game_manager.cpp">
+      <Filter>Directory</Filter>
+    </ClCompile>
+    <ClCompile Include="Directory\Core\game_time.cpp">
+      <Filter>Directory</Filter>
+    </ClCompile>
+    <ClCompile Include="Directory\Initializer\library_init.cpp">
+      <Filter>Directory</Filter>
+    </ClCompile>
+    <ClCompile Include="Directory\Initializer\window_init.cpp">
+      <Filter>Directory</Filter>
+    </ClCompile>
+    <ClCompile Include="Directory\main.cpp">
+      <Filter>Directory</Filter>
+    </ClCompile>
+    <ClCompile Include="Directory\Object\game_object.cpp">
+      <Filter>Directory</Filter>
+    </ClCompile>
+    <ClCompile Include="Directory\Utility\assert_for_dxlib.cpp">
+      <Filter>Directory</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Directory\Core\game_manager.hpp">
+      <Filter>Directory</Filter>
+    </ClInclude>
+    <ClInclude Include="Directory\Core\game_time.hpp">
+      <Filter>Directory</Filter>
+    </ClInclude>
+    <ClInclude Include="Directory\Data\window_data.hpp">
+      <Filter>Directory</Filter>
+    </ClInclude>
+    <ClInclude Include="Directory\Initializer\library_init.hpp">
+      <Filter>Directory</Filter>
+    </ClInclude>
+    <ClInclude Include="Directory\Initializer\window_init.hpp">
+      <Filter>Directory</Filter>
+    </ClInclude>
+    <ClInclude Include="Directory\Object\game_object.hpp">
+      <Filter>Directory</Filter>
+    </ClInclude>
+    <ClInclude Include="Directory\Utility\assert_for_dxlib.hpp">
+      <Filter>Directory</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
